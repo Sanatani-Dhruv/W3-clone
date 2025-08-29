@@ -66,6 +66,18 @@
     transform: rotate(10deg);
 }
 
+@media (max-width:992px) {
+    .w3badge-svg {
+        width: 150px;
+        right: 2%;
+        bottom: -110px;
+    }
+
+    .curv-arrow-svg {
+        display: none;
+    }
+}
+
 @media  (max-width:800px) {
     .career-title {
         font-size: 55px;
@@ -79,20 +91,8 @@
 
     .w3badge-svg {
         bottom: unset;
-        top: -95px;
-        right: 10px;
+        top: -155px;
+        right: 0px;
         width: 100px !important;
-    }
-}
-
-@media (max-width:992px) {
-    .w3badge-svg {
-        width: 150px;
-        right: 2%;
-        bottom: -110px;
-    }
-
-    .curv-arrow-svg {
-        display: none;
     }
 }
