@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1" />
+        <title>W3Schools Online Web Tutorials</title>
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/intro.css">
+        <link rel="stylesheet" href="styles/lang-parts.css">
+        <link rel="stylesheet" href="styles/lang-colors.css">
+        <link rel="stylesheet" href="styles/login-part.css">
+        <link rel="stylesheet" href="styles/code-editor-part.css">
+        <link rel="stylesheet" href="styles/spaces-part.css">
+        <link rel="stylesheet" href="styles/plususer-part.css">
+        <link rel="stylesheet" href="styles/color-picker-part.css">
+        <link rel="stylesheet" href="styles/for-teachers-part.css">
+        <link rel="stylesheet" href="styles/code-game-part.css">
+        <link rel="stylesheet" href="styles/exercise-part.css">
+        <link rel="stylesheet" href="styles/web-template-part.css">
+        <link rel="stylesheet" href="styles/career-part.css">
+        <link rel="stylesheet" href="styles/how-to-section-part.css">
+        <link rel="shortcut icon" href="images/w3schools-logo-icon.svg" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <!--
+            <link href="https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap" rel="stylesheet">
+        -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Freckle+Face&display=swap"
+            rel="stylesheet">
+    </head>
+
+    <body>
+        <header class="header-container">
+            <div class="header">
+                <div class="logo-container">
+                    <img class="logo" src="images/w3schools-logo-icon.svg" alt="">
+                </div>
+                <div class="head-content">
+                    <nav class="nav-links">
+                        <div class="nav-headings" title="Tutorials and References">
+                            <div class="nav-title">
+                                Tutorials
+                            </div>
+                            <div class="dropdown-container">
+                                <img class="dropdown-svg" src="images/arrow-drop-down.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="nav-headings" title="Exercises and Quizzes">
+                            <div class="nav-title">
+                                Exercises
+                            </div>
+                            <div class="dropdown-container">
+                                <img class="dropdown-svg" src="images/arrow-drop-down.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="nav-headings" title="Certificates">
+                            <div class="nav-title">
+                                Certificates
+                            </div>
+                            <div class="dropdown-container">
+                                <img class="dropdown-svg" src="images/arrow-drop-down.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="nav-headings" title="Our Services">
+                            <div class="nav-title">
+                                Services
+                            </div>
+                            <div class="dropdown-container">
+                                <img class="dropdown-svg" src="images/arrow-drop-down.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="search-bar-container">
+                            <form action="">
+                                <input class="search-bar" type="text" placeholder="Search...">
+                                <button class="search-btn" type="submit">
+                                    <img class="search-btn-svg" src="images/search.svg" alt="">
+                                </button>
+                            </form>
+                        </div>
+                        <div class="light-dark-container" title="Toggle light/dark mode">
+                            <img class="light-dark-svg dark-light lang-btn-svg" src="images/dark-theme (copy)-1.svg" alt="">
+                        </div>
+                    </nav>
+                </div>
+                <nav class="special-service">
+                    <a href="https://www.w3schools.com/spaces/index.php" class="special-service-links"
+                                                                         title="Get Your Own Website With W3Schools Spaces">
+                        <img class="special-service-links-svg" src="images/Spaces.svg" alt="">
+                        <div class="special-service-link">Spaces</div>
+                    </a>
+                    <a href="https://www.w3schools.com/academy/index.php" class="special-service-links"
+                                                                          title="Contact us about W3Schools Academy for educational institutions">
+                        <img class="special-service-links-svg" src="images/For-teachers.svg" alt="">
+                        <div class="special-service-link">For Teachers</div>
+                    </a>
+                    <a href="https://www.w3schools.com/plus/index.php" class="special-service-links"
+                                                                       title="Become a PLUS user and unlock powerful features">
+                        <img class="special-service-links-svg oversized-svg" src="images/Plus.svg" alt="">
+                        <div class="special-service-link">Upgrade</div>
+                    </a>
+
+                    <a href="https://campus.w3schools.com/collections/course-catalog" class="special-service-links"
+                                                                                      title="W3Schools Certificates">
+                        <img class="special-service-links-svg" src="images/Get-certificate.svg" alt="">
+                        <div class="special-service-link">Get Certified</div>
+                    </a>
+                </nav>
+                <div class="sign-in">
+                    <button class="sign-in-btn">
+                        <img class="sign-in-svg" src="images/sign-in.svg" alt="">
+                        <div>Sign In</div>
+                    </button>
+                </div>
+            </div>
+            <nav class="sub-head">
+                <a href="https://www.w3schools.com/python/default.asp" title="HTML Tutorials" class="sub-head-link">HTML</a>
+                <a href="https://www.w3schools.com/css/default.asp" title="CSS Tutorials" class="sub-head-link">CSS</a>
+                <a href="https://www.w3schools.com/js/default.asp" title="JavaScript Tutorials"
+                                                                   class="sub-head-link">JAVASCRIPT</a>
+                <a href="https://www.w3schools.com/sql/default.asp" title="SQL Tutorials" class="sub-head-link">SQL</a>
+                <a href="https://www.w3schools.com/python/default.asp" title="Python Tutorials"
+                                                                       class="sub-head-link">PYTHON</a>
+                <a href="https://www.w3schools.com/java/default.asp" title="Java Tutorials" class="sub-head-link">JAVA</a>
+                <a href="https://www.w3schools.com/php/default.asp" title="PHP Tutorials" class="sub-head-link">PHP</a>
+                <a href="https://www.w3schools.com/howto/default.asp" title="How to" class="sub-head-link">HOW TO</a>
+                <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS Tutorials"
+                                                                      class="sub-head-link">W3.CSS</a>
+                <a href="https://www.w3schools.com/c/default.asp" title="C Tutorials" class="sub-head-link">C</a>
+                <a href="https://www.w3schools.com/cpp/default.asp" title="C++ Tutorials" class="sub-head-link">C++</a>
+                <a href="https://www.w3schools.com/cs/default.asp" title="C# Tutorials" class="sub-head-link">C#</a>
+                <a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp" title="Bootstrap Tutorials"
+                                                                                class="sub-head-link">BOOTSTRAP</a>
+                <a href="https://www.w3schools.com/react/default.asp" title="React Tutorials"
+                                                                      class="sub-head-link">REACT</a>
+                <a href="https://www.w3schools.com/mysql/default.asp" title="MySQL Tutorials"
+                                                                      class="sub-head-link">MYSQL</a>
+                <a href="https://www.w3schools.com/jquery/default.asp" title="JQuery Tutorials"
+                                                                       class="sub-head-link">JQUERY</a>
+                <a href="https://www.w3schools.com/excel/index.php" title="Excel Tutorials" class="sub-head-link">EXCEL</a>
+                <a href="https://www.w3schools.com/xml/default.asp" title="XML Tutorials" class="sub-head-link">XML</a>
+                <a href="https://www.w3schools.com/django/index.php" title="Django Tutorials"
+                                                                     class="sub-head-link">DJANGO</a>
+                <a href="https://www.w3schools.com/python/numpy/default.asp" title="NumPy Tutorials"
+                                                                             class="sub-head-link">NUMPY</a>
+                <a href="https://www.w3schools.com/python/pandas/default.asp" title="Pandas Tutorials"
+                                                                              class="sub-head-link">PANDAS</a>
+                <a href="https://www.w3schools.com/nodejs/default.asp" title="Node.js Tutorials"
+                                                                       class="sub-head-link">NODEJS</a>
+                <a href="https://www.w3schools.com/dsa/index.php" title="DSA Tutorials" class="sub-head-link">DSA</a>
+                <a href="https://www.w3schools.com/typescript/index.php" title="TypeScript Tutorials"
+                                                                         class="sub-head-link">TYPESCRIPT</a>
+                <a href="https://www.w3schools.com/angular/default.asp" title="Angular.js Tutorials"
+                                                                        class="sub-head-link">ANGULAR</a>
+                <a href="https://www.w3schools.com/git/default.asp" title="Git Tutorials" class="sub-head-link">GIT</a>
+                <a href="https://www.w3schools.com/postgresql/index.php" title="PostgreSQL Tutorials"
+                                                                         class="sub-head-link">POSTGRESQL</a>
+                <a href="https://www.w3schools.com/mongodb/index.php" title="MongoDB Tutorials"
+                                                                      class="sub-head-link">MONGODB</a>
+                <a href="https://www.w3schools.com/asp/default.asp" title="ASP Tutorials" class="sub-head-link">ASP</a>
+                <a href="https://www.w3schools.com/ai/default.asp" title="A.I. Tutorials" class="sub-head-link">AI</a>
+                <a href="https://www.w3schools.com/r/default.asp" title="R Tutorials" class="sub-head-link">R</a>
+                <a href="https://www.w3schools.com/go/index.php" title="Go Tutorials" class="sub-head-link">GO</a>
+                <a href="https://www.w3schools.com/kotlin/index.php" title="Kotlin Tutorials"
+                                                                     class="sub-head-link">KOTLIN</a>
+                <a href="https://www.w3schools.com/sass/default.php" title="Sass Tutorials" class="sub-head-link">SASS</a>
+                <a href="https://www.w3schools.com/vue/index.php" title="Vue.js Tutorials" class="sub-head-link">VUE</a>
+                <a href="https://www.w3schools.com/gen_ai/index.php" title="Gen A.I. Tutorials" class="sub-head-link">GEN
+                    AI</a>
+                <a href="https://www.w3schools.com/python/scipy/index.php" title="SciPy Tutorials"
+                                                                           class="sub-head-link">SCIPY</a>
+                <a href="https://www.w3schools.com/cybersecurity/index.php" title="Cyber security Tutorials"
+                                                                            class="sub-head-link">CYBERSECURITY</a>
+                <a href="https://www.w3schools.com/datascience/default.asp" title="Data science Tutorials"
+                                                                            class="sub-head-link">DATA SCIENCE</a>
+                <a href="https://www.w3schools.com/programming/index.php" title="Introduction to Programming"
+                                                                          class="sub-head-link">INTRO TO PROGRAMMING</a>
+                <a href="https://www.w3schools.com/bash/index.php" title="Bash Tutorials" class="sub-head-link">BASH</a>
+                <a href="https://www.w3schools.com/rust/index.php" title="Rust Tutorials" class="sub-head-link">RUST</a>
+            </nav>
+
+        </header>
+        <main class="main">
+            <div class="intro">
+                <h1 class="h1">Learn to Code</h1>
+                <h3 class="h3">With the world's largest web developer site.</h3>
+                <form action="">
+                    <div class="main-search-bar-container">
+                        <input class="main-search-bar" type="search" placeholder="Search our tutorials, e.g. HTML">
+                        <button class="main-search-btn" type="submit">
+                            <!-- 🔍︎ -->
+                            <img class="main-search-btn-svg" src="images/search-white.svg" alt="">
+                        </button>
+                    </div>
+                </form>
+                <div class="where_to_start_div">
+                    <a class="where_to_start_link" href="https://www.w3schools.com/where_to_start.asp">
+                        Not Sure Where To Begin?
+                    </a>
+                </div>
+            </div>
+            <div class="curve-svg-container">
+                <svg class="curve-svg" style="display: block;width:100dvw;height: 70px;background-color:#D9EEE1;"
+                                       viewBox="0 0 100 100" preserveAspectRatio="none">
+                    <path id="wavepath" d="M0,0  L110,0C35,150 35,0 0,100z" fill="rgb(13,23,33)"></path>
+                </svg>
+            </div>
+            <div class="html lang-part">
+                <div class="lang-container">
+                    <h1 class="h1">HTML</h1>
+                    <p class="p">The language for building web pages</p>
+                    <div class="lang-btn-container">
+                        <button class="learn-light lang-btn">Learn HTML</button>
+                        <button class="video-light lang-btn">Video Tutorial</button>
+                        <button class="reference-light lang-btn">HTML Reference</button>
+                        <button class="certificate-light lang-btn">Get Certified</button>
+                    </div>
+                </div>
+                <div class="code-container">
+                    <h3 class="h3">HTML Example:</h3>
+                    <pre class="code-block">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;HTML Tutorial&lt;&#x2F;title&gt;
+&lt;&#x2F;head&gt;
+
+&lt;body&gt;
+
+    &lt;h1&gt;This is a heading&lt;&#x2F;h1&gt;
+    &lt;p&gt;This is a paragraph.&lt;&#x2F;p&gt;
+
+&lt;&#x2F;body&gt;
+&lt;&#x2F;html&gt;</pre>
+                    <a target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default_default">
+                        <button class="lang-btn try-it-btn">
+                            Try it Yourself
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="css lang-part">
+                <div class="lang-container">
+                    <h1 class="h1">CSS</h1>
+                    <p class="p">The language for styling web pages</p>
+                    <div class="lang-btn-container">
+                        <button class="learn-light lang-btn">Learn CSS</button>
+                        <button class="reference-light lang-btn">CSS Reference</button>
+                        <button class="certificate-light lang-btn">Get Certified</button>
+                    </div>
+                </div>
+                <div class="code-container">
+                    <h3 class="h3">CSS Example:</h3>
+                    <pre class="code-block">body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+}</pre>
+                    <a target="_blank" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_default">
+                        <button class="lang-btn try-it-btn">
+                            Try it Yourself
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="javascript lang-part">
+                <div class="lang-container">
+                    <h1 class="h1 js-h1">JavaScript</h1>
+                    <p class="p">The language for programming web pages</p>
+                    <div class="lang-btn-container">
+                        <button class="learn-light lang-btn">Learn JavaScript</button>
+                        <button class="reference-light lang-btn">JavaScript Reference</button>
+                        <button class="certificate-light lang-btn">Get Certified</button>
+                    </div>
+                </div>
+                <div class="code-container">
+                    <h3 class="h3">JavaScript Example:</h3>
+                    <pre class="code-block">&lt;button onclick&#x3D;&quot;myFunction()&quot;&gt;Click Me!&lt;&#x2F;button&gt;
+&lt;script&gt;
+    function myFunction() {
+        let x &#x3D; document.getElementById(&quot;demo&quot;);
+        x.style.fontSize &#x3D; &quot;25px&quot;;
+        x.style.color &#x3D; &quot;red&quot;;
+    }
+&lt;&#x2F;script&gt;
+                    </pre>
+                    <a target="_blank" href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_default">
+                        <button class="lang-btn try-it-btn">
+                            Try it Yourself
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="python lang-part">
+                <div class="lang-container">
+                    <h1 class="py-h1 h1">Python</h1>
+                    <p class="p">A popular programming language</p>
+                    <div class="lang-btn-container">
+                        <button class="learn-light lang-btn">Learn Python</button>
+                        <button class="reference-light lang-btn">Python Reference</button>
+                        <button class="certificate-light lang-btn">Get Certified</button>
+                    </div>
+                </div>
+                <div class="code-container">
+                    <h3 class="h3">Python Example:</h3>
+                    <pre class="code-block">if 5 > 2:
+print("Five is greater than two!")</pre>
+                    <a target="_blank" href="https://www.w3schools.com/python/trypython.asp?filename=demo_indentation">
+                        <button class="lang-btn try-it-btn">
+                            Try it Yourself
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="sql lang-part">
+                <div class="lang-container">
+                    <h1 class="h1 sql-h1">SQL</h1>
+                    <p class="p">A language for accessing databases</p>
+                    <div class="lang-btn-container">
+                        <button class="learn-light lang-btn">Learn SQL</button>
+                        <button class="reference-light lang-btn">SQL Reference</button>
+                        <button class="certificate-light lang-btn">Get Certified</button>
+                    </div>
+                </div>
+                <div class="code-container">
+                    <h3 class="h3">SQL Example:</h3>
+                    <pre class="code-block">SELECT * FROM Customers
+WHERE Country='Mexico';
+                    </pre>
+                    <a target="_blank" href="https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_where">
+                        <button class="lang-btn try-it-btn">
+                            Try it Yourself
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="other-langs">
+                <div class="other-langs-1">
+                    <div class="lang-card">
+                        <div class="card-title">
+                            <h2>PHP</h2>
+                        </div>
+                        <h5 class="card-info">A web server programming language</h5>
+                        <button class="card-btn" title="PHP Tutorial">
+                            <a href="https://www.w3schools.com/php/default.asp" class="link-to-lang">
+                                Learn PHP
+                            </a>
+                        </button>
+                    </div>
+                    <div class="lang-card">
+                        <div class="card-title">
+                            <h2>jQuery</h2>
+                        </div>
+                        <h5 class="card-info">A JS library for developing web pages</h5>
+                        <button class="card-btn" title="jQuery Tutorial">
+                            <a href="https://www.w3schools.com/jquery/default.asp" class="link-to-lang">
+                                Learn JQuery
+                            </a>
+                        </button>
+                    </div>
+                    <div class="lang-card">
+                        <div class="card-title">
+                            <h2>Java</h2>
+                        </div>
+                        <h5 class="card-info">A programming language</h5>
+                        <button class="card-btn" title="Java Tutorial">
+                            <a href="https://www.w3schools.com/java/default.asp" class="link-to-lang">
+                                Learn Java
+                            </a>
+                        </button>
+                    </div>
+                    <div class="lang-card">
+                        <div class="card-title">
+                            <h2>C++</h2>
+                        </div>
+                        <h5 class="card-info">A programming language</h5>
+                        <button class="card-btn" title="C++ Tutorial">
+                            <a href="https://www.w3schools.com/" class="link-to-lang">
+                                Learn C++
+                            </a>
+                        </button>
+
+                    </div>
+                    <div class="lang-card">
+                        <div class="card-title">
+                            <h2>W3.CSS</h2>
+                        </div>
+                        <h5 class="card-info">A CSS framework for faster and better responsive web pages</h5>
+                        <button class="card-btn" title="W3.CSS Tutorial">
+                            <a href="https://www.w3schools.com/w3css/default.asp" class="link-to-lang">
+                                Learn W3.CSS
+                            </a>
+                        </button>
+                    </div>
+                    <div class="lang-card">
+                        <div class="card-title">
+                            <h2>Bootstrap</h2>
+                        </div>
+                        <h5 class="card-info">A CSS framework for designing better web pages</h5>
+                        <button class="card-btn" title="Bootstrap Tutorial">
+                            <a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp" class="link-to-lang">
+                                Learn Bootstrap
+                            </a>
+                        </button>
+                    </div>
+                    <div class="lang-card" title="C Tutorial">
+                        <div class="card-title card-title-extra">
+                            <h2>C</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="C# Tutorial">
+                        <div class="card-title card-title-extra">
+                            <h2>C#</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="other-langs-2">
+                    <div class="lang-card" title="R Tutorial">
+                        <div class="card-title">
+                            <h2>R</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="Kotlin Tutorial">
+                        <div class="card-title">
+                            <h2>Kotlin</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="Node.js Tutorial">
+                        <div class="card-title">
+                            <h2>Node.js</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="React Tutorial">
+                        <div class="card-title">
+                            <h2>React</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="JSON Tutorial">
+                        <div class="card-title">
+                            <h2>JSON</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="Vue Tutorial">
+                        <div class="card-title">
+                            <h2>Vue</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="MySQL Tutorial">
+                        <div class="card-title">
+                            <h2>MySQL</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="XML Tutorial">
+                        <div class="card-title">
+                            <h2>XML</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="Sass Tutorial">
+                        <div class="card-title">
+                            <h2>Sass</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="Icons Tutorial">
+                        <div class="card-title">
+                            <h2>Icons</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="Responsive Web Design Tutorial">
+                        <div class="card-title">
+                            <h2>RWD</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="Graphics Tutorial">
+                        <div class="card-title">
+                            <h2>Graphics</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="SVG Tutorial">
+                        <div class="card-title">
+                            <h2>SVG</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="Canvas Tutorial">
+                        <div class="card-title">
+                            <h2>Canvas</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="Raspberry Pi Tutorial">
+                        <div class="card-title">
+                            <h2>Raspberry Pi</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="Cyber Security Tutorial">
+                        <div class="card-title">
+                            <h2>Cyber Security</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="Color Tutorial">
+                        <div class="card-title">
+                            <h2>Color</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="Git Tutorial">
+                        <div class="card-title">
+                            <h2>Git</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="Python Matplotlib Tutorial">
+                        <div class="card-title">
+                            <h2>Matplotlib</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="Python NumPy Tutorial">
+                        <div class="card-title">
+                            <h2>Numpy</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="Python Pandas Tutorial">
+                        <div class="card-title">
+                            <h2>Pandas</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="Python SciPy Tutorial">
+                        <div class="card-title">
+                            <h2>SciPy</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="ASP Tutorial">
+                        <div class="card-title">
+                            <h2>ASP</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="AngularJS Tutorial">
+                        <div class="card-title">
+                            <h2>AngularJS</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="AppML Tutorial">
+                        <div class="card-title">
+                            <h2>AppML</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="Go Tutorial">
+                        <div class="card-title">
+                            <h2>Go</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="TypeScript Tutorial">
+                        <div class="card-title">
+                            <h2>TypeScript</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="Django Tutorial">
+                        <div class="card-title">
+                            <h2>Django</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="MongoDB Tutorial">
+                        <div class="card-title">
+                            <h2>MongoDB</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="Statistics Tutorial">
+                        <div class="card-title">
+                            <h2>Statistics</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="Dat Science Tutorial">
+                        <div class="card-title">
+                            <h2>Data Science</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="PostgreSQL Tutorial">
+                        <div class="card-title">
+                            <h2>PostgreSQL</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="How to - Code snippets">
+                        <div class="card-title">
+                            <h2>HowTo</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="Rust Tutorial">
+                        <div class="card-title">
+                            <h2>Rust</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="Spaces - free web hosting">
+                        <div class="card-title">
+                            <h2>Spaces</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="Typing Speed">
+                        <div class="card-title">
+                            <h2>Typing Speed</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="other-langs-3">
+                    <div class="lang-card" title="Excel Tutorial">
+                        <div class="card-title">
+                            <h2>Excel</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="DSA Tutorial">
+                        <div class="card-title">
+                            <h2>DSA - D<span>ata</span> S<span>tructues</span> and A<span>lgorithms</span></h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="Machine Learning Tutorial">
+                        <div class="card-title">
+                            <h2>Machine Learning</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="Artificial Intelligence Tutorial">
+                        <div class="card-title">
+                            <h2>Artificial Intelligence</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="Introduction to Programming">
+                        <div class="card-title">
+                            <h2>Introduction to Programming</h2>
+                        </div>
+                    </div>
+                    <div class="lang-card" title="Bash Tutorial">
+                        <div class="card-title">
+                            <h2>Bash</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="login-part">
+                <h1 class="login-title">Log in<span class="signup-hide-on-small-screen"> / Sign Up</span></h1>
+                <h4 class="login-desc">
+                    Create a <strong>free</strong> account to track your progress, and get access to more features and
+                    learning materials.</h4>
+                <div class="login-img-container">
+                    <img class="login-img" src="images/dashboard1.webp" alt="User Dashboard image">
+                </div>
+                <a class="login-btn-link"
+                   href="https://profile.w3schools.com/signup?redirect_url=https%3A%2F%2Fwww.w3schools.com%2F"
+                   target="_blank" rel="noopener noreferrer">
+                    <button class="login-btn">
+                        Sign Up for Free
+                    </button>
+                </a>
+            </div>
+            <div class="code-editor-part-container">
+                <div class="code-editor-part">
+                    <h1 class="code-editor-title">Code Editor</h1>
+                    <h4 class="code-editor-desc">
+                        With our online code editor, you can edit code and view the result in your browser
+                    </h4>
+                    <div class="editor-ide">
+                        <div class="ide-top">
+                            <div class="ide-3-dot">
+                                <div class="dot dot-1"></div>
+                                <div class="dot dot-2"></div>
+                                <div class="dot dot-3"></div>
+                            </div>
+                            <div class="ide-input">
+                                <input type="text" placeholder="www.w3schools.com/tryit/" readonly>
+                            </div>
+                        </div>
+                        <div class="end-choser-btn-container">
+                            <button onclick="Add_And_Remove_Class('end-btn-active','end-btn','front')" id="end-btn-front"
+                                                                                                       class="end-btn-front end-btn-active">Frontend</button>
+                            <button onclick="Add_And_Remove_Class('end-btn-active','end-btn','back')" id="end-btn-back"
+                                                                                                      class="end-btn-back end-btn">Backend</button>
+                        </div>
+                        <img id="ide-img-front" class="ide-img codeeditor-frontend-img"
+                                                src="images/codeeditor-frontend.webp" alt="" class="">
+                        <img id="ide-img-back" class="ide-img codeeditor-backend-img" style="display: none;"
+                                                                                      src="images/codeeditor-backend.webp" alt="" class="">
+                    </div>
+                    <div class="editor-end-try-container">
+                        <a href="https://www.w3schools.com/tryit/tryit.asp?filename=tryhtml_hello" target="_blank"
+                                                                                                   rel="noopener noreferrer">
+                            <button class="editor-end-try-btn frontend-btn">
+                                Try Frontend Editor (HTML/CSS/JS)
+                            </button>
+                        </a>
+                        <a href="https://www.w3schools.com/tryit/trycompiler.asp?filename=demo_python" target="_blank"
+                                                                                                       rel="noopener noreferrer">
+                            <button class="editor-end-try-btn backend-btn">
+                                Try Backend Editor (Python/PHP/Java/C..)
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="spaces-part-container">
+                <div class="spaces-part">
+                    <h1 class="spaces-title">
+                        W3Schools Spaces
+                    </h1>
+                    <h3 class="spaces-desc-1">
+                        If you want to create your own website, check out <a class="spaces-link"
+                                                                             href="https://www.w3schools.com/spaces/index.php">W3Schools Spaces</a>.
+                    </h3>
+                    <h3 class="spaces-desc-2">
+                        It is free to use, and does not require any setup:
+                    </h3>
+                    <img src="images/dynamicspaces.webp" width="400px" alt="Spaces Demo" class="spaces-img">
+                    <a href="https://www.w3schools.com/spaces/index.php" class="spaces-btn-link">
+                        <button class="spaces-btn">
+                            Learn More
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="plususer-part-container">
+                <div class="plususer-part">
+                    <h1 class="plususer-title">Become a Plus User</h1>
+                    <h3 class="plususer-desc">And unlock powerful features:</h3>
+                    <div class="plususer-li-div">
+                        <ul>
+                            <li class="plususer-li">
+                                <img src="images/tick_li_img.svg" alt="">
+                                Browse W3Schools <strong>without ads</strong>
+                            </li>
+                            <li class="plususer-li">
+                                <img src="images/tick_li_img.svg" alt="">
+                                Build and host Websites
+                            </li>
+                            <li class="plususer-li">
+                                <img src="images/tick_li_img.svg" alt="">
+                                Unlimited challenges
+                            </li>
+                            <li class="plususer-li">
+                                <img src="images/tick_li_img.svg" alt="">
+                                Unlimited practice tests
+                            </li>
+                            <li class="plususer-li">
+                                <img src="images/tick_li_img.svg" alt="">
+                                Get extra credits
+                            </li>
+                            <li class="plususer-li">
+                                <img src="images/tick_li_img.svg" alt="">
+                                Priority support
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="plususer-btn">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+            <hr>
+            <div class="for-teachers-part">
+                <div class="for-teachers-part-container">
+                    <div class="for-teachers-part-1">
+                        <h1 class="for-teachers-title">For Teachers</h1>
+                        <p class="for-teachers-desc">Streamline your teaching:</p>
+                        <div class="for-teachers-li-div">
+                            <ul>
+                                <li class="for-teachers-li">
+                                    <img src="images/tick_li_img.svg" alt="">
+                                    Manage your classroom
+                                </li>
+                                <li class="for-teachers-li">
+                                    <img src="images/tick_li_img.svg" alt="">
+                                    Ready-to-use learning materials
+                                </li>
+                                <li class="for-teachers-li">
+                                    <img src="images/tick_li_img.svg" alt="">
+                                    Customize study plans
+                                </li>
+                                <li class="for-teachers-li">
+                                    <img src="images/tick_li_img.svg" alt="">
+                                    Track student progress
+                                </li>
+                                <li class="for-teachers-li">
+                                    <img src="images/tick_li_img.svg" alt="">
+                                    Interactive coding challenges
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="http://">
+                            <button class="for-teachers-btn">Learn More</button>
+                        </a>
+                    </div>
+                    <div class="for-teachers-part-2">
+                        <img src="images/classroom.webp" width="500px" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="color-picker-part-container">
+                <div class="color-picker-part">
+                    <h1 class="color-picker-title">
+                        Color Picker
+                    </h1>
+                </div>
+                <h4 class="color-picker-desc">W3Schools' famous color picker:</h4>
+                <a href="https://www.w3schools.com/colors/colors_picker.asp">
+                    <img src="images/colorpicker.webp" alt="" class="color-picker-img">
+                </a>
+            </div>
+            <div class="code-game-part-container">
+                <div class="code-game-part">
+                    <h1 class="code-game-title">
+                        Code Game
+                    </h1>
+                    <h2 class="code-game-desc">
+                        Help the Lynx collect pine cones!
+                    </h2>
+                    <a href="https://www.w3schools.com/codegame/index.html">
+                        <img class="code-game-img" src="images/w3lynx_200.webp" alt="">
+                    </a>
+                    <a href="https://www.w3schools.com/codegame/index.html">
+                        <button class="code-game-btn">Play Game</button>
+                    </a>
+                </div>
+            </div>
+            <div class="exercise-part-container">
+                <div class="exercise-part">
+                    <h2 class="exercise-title">Exercises and Quizzes</h2>
+                    <h4 class="exercise-desc">Test your skills!</h4>
+                    <div class="exercise-btn-container">
+                        <div class="exercise-btn-div-1">
+                            <a href="https://www.w3schools.com/exercises/index.php">
+                                <p class="exercise-btn-1">Exercises</p>
+                            </a>
+                        </div>
+                        <div class="exercise-btn-div-2">
+                            <a href="https://www.w3schools.com/quiztest/default.asp">
+                                <p class="exercise-btn-2">Quizzes</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="web-template-part-container">
+                <div class="web-template-part">
+                    <h1 class="web-template-title">Web Templates</h1>
+                    <h4 class="web-template-desc">Browse our selection of <strong>free</strong> responsive HTML Templates</h4>
+                    <a class="web-template-img-link" href="https://www.w3schools.com/w3css/w3css_templates.asp">
+                        <img class="web-template-img" src="images/web.webp" alt="">
+                    </a>
+                    <a class="web-template-btn-link" href="https://www.w3schools.com/w3css/w3css_templates.asp">
+                        <button class="web-template-btn">Browse Templates</button>
+                    </a>
+                </div>
+            </div>
+            <div class="career-part-container">
+                <div class="career-part">
+                    <h2 class="career-title">Kickstart your career</h2>
+                    <p class="career-desc">Get certified by completing a course</p>
+                    <a href="https://campus.w3schools.com/collections/course-catalog">
+                        <button class="career-btn">Get started</button>
+                    </a>
+                    <img src="images/curv-arrow.svg" class="curv-arrow-svg" width="220px" alt="">
+                    <img src="images/w3badge-min.svg" class="w3badge-svg" alt="">
+                </div>
+            </div>
+            <div class="how-to-section-part-container">
+                <div class="how-to-section-part">
+                    <h2 class="how-to-section-title">How To Section</h2>
+                    <h4 class="how-to-section-desc1">Code snippets for HTML, CSS and JavaScript</h4>
+                    <h6 class="how-to-section-desc2">For example, how to create a slideshow:</h6>
+                    <div class="how-to-section-monitor"></div>
+                    <div class="how-to-section-stand">
+                        <div class="hts-editor-ide">
+                            <div class="hts-ide-top">
+                                <div class="hts-ide-3-dot">
+                                    <div class="hts-dot hts-dot-1"></div>
+                                    <div class="hts-dot hts-dot-2"></div>
+                                    <div class="hts-dot hts-dot-3"></div>
+                                </div>
+                                <div class="hts-ide-input">
+                                    <input type="text" placeholder="www.w3schools.com/tryit/" readonly>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="how-to-section-btn">Learn How To</button>
+                    </div>
+            </div>
+        </main>
+        <script>
+            function Add_And_Remove_Class(Active_Cls, Normal_Cls, Btn_Type) {
+                const Frontend_Element = document.getElementById('end-btn-front')
+                const Backend_Element = document.getElementById('end-btn-back');
+                const Front_end_Img = document.getElementById("ide-img-front");
+                const Back_end_Img = document.getElementById("ide-img-back");
+
+                if (Btn_Type == "front") {
+                    Frontend_Element.classList.add(Active_Cls);
+                    Frontend_Element.classList.remove(Normal_Cls);
+                    Backend_Element.classList.add(Normal_Cls);
+                    Backend_Element.classList.remove(Active_Cls);
+                    Front_end_Img.style.display = "block";
+                    Back_end_Img.style.display = "none";
+
+                }
+
+                if (Btn_Type == "back") {
+                    Frontend_Element.classList.add(Normal_Cls);
+                    Frontend_Element.classList.remove(Active_Cls);
+                    Backend_Element.classList.add(Active_Cls);
+                    Backend_Element.classList.remove(Normal_Cls);
+                    Back_end_Img.style.display = "block";
+                    Front_end_Img.style.display = "none";
+                }
+            }
+        </script>
+    </body>
+
+</html>

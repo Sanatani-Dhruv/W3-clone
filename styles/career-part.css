@@ -1,0 +1,98 @@
+.career-part-container {
+    margin-bottom: 85px;
+    padding: 0 60px 64px;
+    background-color: rgb(13, 23, 33);
+    color: white;
+    font-family: 'Source Sans 3', sans-serif;
+    line-height: 22.5px;
+    text-align: left;
+}
+
+.career-part {
+    color: rgb(255, 192, 199);
+    width: 100% !important;
+    max-width: 1225px;
+    margin: auto;
+    height: 100%;
+    line-height: 1.5;
+    position: relative;
+}
+
+.career-title {
+    font-size: 62px;
+    font-weight: 600;
+    line-height: 93px;
+    margin: 1em 0;
+    width: 100% !important;
+}
+
+.career-desc {
+    font-size: 52px;
+    margin: 1em 0 !important;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.career-btn {
+    font-family: 'Source Sans 3', sans-serif;
+    padding: 17px 55px;
+    background-color: rgb(4, 170, 109);
+    color: white;
+    margin-bottom: 16px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    border: none;
+    z-index:10;
+}
+
+.w3badge-svg {
+    width: 220px;
+    height: 220px;
+    display: inline-block;
+    position: absolute;
+    bottom: -130px;
+    right: 25px;
+    transform: matrix(0.984808, 0.173648, -0.173648, 0.984808, 0, 0);
+}
+
+.curv-arrow-svg {
+    display: inline-block;
+    position: absolute;
+    right: 200px;
+    bottom: -50px;
+    z-index: 100;
+    transform: rotate(10deg);
+}
+
+@media  (max-width:800px) {
+    .career-title {
+        font-size: 55px;
+    }
+}
+
+@media (max-width:600px) {
+    .career-desc {
+        font-size: 40px;
+    }
+
+    .w3badge-svg {
+        bottom: unset;
+        top: -95px;
+        right: 10px;
+        width: 100px !important;
+    }
+}
+
+@media (max-width:992px) {
+    .w3badge-svg {
+        width: 150px;
+        right: 2%;
+        bottom: -110px;
+    }
+
+    .curv-arrow-svg {
+        display: none;
+    }
+}

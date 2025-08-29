@@ -1,0 +1,121 @@
+.for-teachers-part {
+    background-color: rgb(13, 23, 33);
+    padding: 64px 35px;
+}
+
+.for-teachers-part-container {
+    color: white;
+    text-align: center;
+    width: 100%;
+    max-width: 1000px;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding: 64px 35px; */
+}
+
+.for-teachers-part-1,
+.for-teachers-part-2 {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding: 3%;
+}
+
+.for-teachers-part-1 {
+    float: left;
+}
+
+.for-teachers-part-2 {
+    float: right;
+}
+
+
+.for-teachers-title {
+    font-size: 70px;
+    margin: 2px 0 18px;
+    line-height: 55px;
+    padding: 11px 0 20px;
+    font-weight: 700;
+}
+
+.for-teachers-desc {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 19px;
+    margin: 1.2em 0;
+    font-weight: 600;
+}
+
+.for-teachers-part-1 ul {
+    list-style: none;
+    text-align: start;
+}
+
+.for-teachers-part-1 ul li {
+    line-height: 36px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.for-teachers-part-1 ul li img {
+    margin: 0px 15px 0 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+}
+
+.for-teachers-part-2 {
+    width: 49.9999999%;
+    margin-top: 16px;
+    padding: 3%;
+}
+
+.for-teachers-part-2 img {
+    width: min(100%, 500px);
+}
+
+.for-teachers-btn {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    width: min(300px, 100%);
+    padding: 11px 18px;
+    margin: 45px auto 0;
+    background-color: rgb(4, 170, 109);
+    color: white;
+    border: none;
+    border-radius: 25px;
+}
+
+.for-teachers-btn:hover {
+    background-color: rgb(5, 152, 98);
+}
+
+@media (max-width:985px) {
+    .for-teachers-part-1 {
+        float: none;
+    }
+
+    .for-teachers-part-container {
+        padding: 63px 35px;
+    }
+
+    .for-teachers-part-2 {
+        float: none;
+        width: 100%;
+    }
+
+    .for-teachers-part-2 img {
+        width: min(500px, 100%);
+    }
+}
+
+@media screen and (max-width:768px) {
+    h1 {
+        font-size: 60px !important;
+        line-height: 55px;
+    }
+}

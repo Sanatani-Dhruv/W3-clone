@@ -1,0 +1,67 @@
+.code-game-part-container {
+    background-color: rgb(150, 212, 212);
+    font-family: 'Freckle Face', cursive !important;
+    padding: 40px 0;
+}
+
+.code-game-part {
+    width: min(980px, 100%);
+    margin: auto;
+    padding: 3%;
+}
+
+.code-game-title {
+    font-family: 'Freckle Face', cursive !important;
+    font-size: 48px;
+    margin: 2px 0 -20px;
+    font-weight: 400;
+    line-height: 90px;
+    vertical-align: middle;
+}
+
+.code-game-desc {
+    font-family: 'Freckle Face', cursive !important;
+    margin: 10px 0;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37.5px;
+}
+
+.code-game-img {
+    margin: 16px 0;
+    margin-bottom: 16px;
+    vertical-align: middle;
+}
+
+.code-game-img:hover {
+    opacity: 0.7;
+}
+
+.code-game-btn {
+    width: 200px;
+    height: 52px;
+    display: block;
+    margin: auto;
+    background-color: rgb(40, 42, 53);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 11px 18px;
+    font-size: 20px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 600;
+}
+
+.code-game-btn:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width:500px) {
+    .code-game-title {
+        font-size: 60px;
+    }
+
+    .code-game-desc {
+        font-size: 25px;
+    }
+}

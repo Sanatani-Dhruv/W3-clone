@@ -1,0 +1,47 @@
+.html {
+    background-color: #D9EEE1;
+}
+
+.css {
+    background-color: #FFF4A3;
+}
+
+.javascript {
+    background-color: rgb(13, 23, 33);
+    color: white;
+}
+
+.python {
+    background-color: rgb(243, 236, 234);
+}
+
+.sql {
+    background-color: rgb(150, 212, 212);
+}
+
+.learn-light {
+    background-color: rgb(4, 170, 109);
+    color: white;
+}
+
+.learn-light:hover {
+    background-color: rgb(5, 152, 98);
+}
+
+.video-light {
+    background-color: rgb(255, 244, 163);
+    color: black;
+}
+
+.video-light:hover {
+    background-color: rgb(255, 240, 128);
+}
+
+.reference-light {
+    background-color: rgb(40, 42, 53);
+    color: white;
+}
+
+.certificate-light {
+    background-color: rgb(255, 179, 187);
+}

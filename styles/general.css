@@ -1,0 +1,85 @@
+/* <weight>: Use a value from 200 to 900
+<uniquifier>: Use a unique and descriptive class name 
+*/
+
+.source-code-pro {
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* <weight>: Use a value from 200 to 900
+<uniquifier>: Use a unique and descriptive class name
+ */
+
+.source-sans-3 {
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+* {
+    font-family: "Source Sans 3", sans-serif;
+    box-sizing: border-box;
+    /*transition: all 0.15s;*/
+}
+
+html {
+    overflow-x: hidden;
+    overflow-y: auto;
+    line-height: 1.5;
+}
+
+body {
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    height: 1200px;
+    box-sizing: border-box;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    font-family: "Source Code 3", sans-serif;
+    cursor: pointer;
+}
+
+input {
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.main {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+
+.main>div:not(.other-langs)>div {
+    width: min(980px,100%);
+}
+
+.h1 {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 10px 0;
+}
+
+hr {
+    margin: 0;
+    border: 2px solid gray;
+}

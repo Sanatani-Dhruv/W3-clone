@@ -1,0 +1,85 @@
+.intro {
+    background-color: rgb(13, 23, 33);
+    color: white;
+    margin: 88.5px 0 0 0;
+    padding: 90px min(90px, 11vw) 96.5px min(90px, 11vw);
+    text-align: center;
+    width: 100%;
+    line-height: 1.5;
+}
+
+
+.intro .h1 {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: min(70px, 13.8dvw);
+    margin: 4.5px 0 0 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+.intro .h3 {
+    margin: 8px 0 10px 0;
+    color: rgb(255, 244, 163);
+    font-weight: 700;
+    margin-top: 8px;
+    font-size: min(23px, 6vw);
+}
+
+.main-search-bar-container {
+    margin: 32px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main-search-bar {
+    width: min(399.5px, 55vw);
+    padding: 10px 10px 10px 25px;
+    font-weight: 600;
+    font-size: 17px;
+    margin: 0;
+    border-radius: 100em 0em 0em 100em;
+    border: 0.1px solid rgb(11, 13, 19);
+    border-right: none;
+}
+
+.main-search-bar:focus {
+    outline: none;
+}
+
+.main-search-btn {
+    border-radius: 0 100em 100em 0;
+    background-color: rgb(4, 170, 109);
+    color: white;
+    display: flex;
+    font-size: 19px;
+    width: min(100.5px);
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0px;
+    border: 0.1px solid rgb(11, 13, 19);
+    border-left: none;
+    cursor: pointer;
+}
+
+.main-search-btn-svg {
+    width: 40px;
+    padding: 8px;
+}
+
+.where_to_start_div {
+    margin: 31.5px auto 0;
+    line-height: 34.5px;
+}
+
+.where_to_start_link {
+    color: white;
+    font-size: min(23px, 4vw);
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.where_to_start_link:hover {
+    color: rgb(255, 244, 163);
+}

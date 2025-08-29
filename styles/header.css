@@ -1,0 +1,252 @@
+.header-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: rgb(29, 42, 53);
+    display: flex;
+    padding: 2px 25px;
+    align-items: center;
+    font-size: 16px;
+    gap: 5px;
+    /* color:#212121; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 56px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    z-index: 100;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    /* For Internet Explorer and Edge */
+    scrollbar-width: none;
+    /* For Firefox */
+}
+
+.logo-container {
+    cursor: pointer;
+    margin: 0 0 0 10px;
+}
+
+.logo {
+    width: 39px;
+}
+
+.logo:hover {
+    color: bisque;
+}
+
+.head-content {
+    display: flex;
+    gap: 1px;
+    align-items: center;
+    margin: 0 0 0 15px;
+    flex: 1;
+}
+
+.nav-links {
+    display: flex;
+    color: rgb(227, 227, 227);
+    align-items: center;
+}
+
+.nav-headings {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    padding: 0px 15.7px;
+    height: 56px;
+    overflow: hidden;
+    cursor: pointer;
+    user-select: none;
+}
+
+.nav-headings:hover {
+    background-color: rgb(4, 170, 109);
+}
+
+.dropdown-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown-svg {
+    width: 8px;
+}
+
+.search-bar-container {
+    position: relative;
+    margin: 0 15.5px 0 10px;
+    box-sizing: content-box;
+}
+
+.search-bar {
+    box-sizing: content-box;
+    border: none;
+    border-radius: 25px;
+    padding: 8px 40px 8px 15px;
+    font-size: 16px;
+    height: 17px;
+    font-weight: 500;
+    width: min(10vw, 115px);
+    background-color: white;
+    border: 1px solid rgb(220, 220, 220);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans 3", sans-serif;
+    font-style: italic;
+}
+
+.search-btn {
+    border-radius: 1em;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    position: absolute;
+    right: 0px;
+    top: 1px;
+    bottom: 1px;
+    border: none;
+    cursor: pointer;
+}
+
+.search-btn-svg {
+    box-sizing: content-box;
+    width: 23px;
+    height: 23px;
+    padding: 3.5px;
+    margin: 2px;
+    border-radius: 2em;
+}
+
+.search-btn:hover .search-btn-svg {
+    background-color: rgb(242, 242, 242);
+}
+
+.search-bar:focus {
+    outline: 3px solid rgb(41, 176, 41);
+}
+
+
+.light-dark-container {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 100em;
+}
+
+.light-dark-container:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.light-dark-svg {
+    width: 18px;
+}
+
+.special-service {
+    white-space: nowrap;
+    display: flex;
+    gap: 8px;
+    padding: 0px 18px;
+}
+
+.special-service-links {
+    padding: 5px 15px;
+    border-radius: 100em;
+    color: rgb(227, 227, 227);
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.special-service-links:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.special-service-links-svg {
+    width: 18px;
+}
+
+.oversized-svg {
+    width: 13px;
+}
+
+.sign-in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-in-btn {
+    background-color: rgb(4, 170, 109);
+    border: none;
+    color: white;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 600;
+    white-space: nowrap;
+    padding: 10px 17px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.sign-in-btn:hover {
+    background-color: rgb(4, 146, 94);
+}
+
+.sign-in-svg {
+    width: 14px;
+    height: 14px;
+    border: none;
+}
+
+/* Sub-Head Section */
+
+.sub-head {
+    position: fixed;
+    font-family: 'Source Sans Pro', sans-serif;
+    top: 56px;
+    left: 0;
+    right: 0;
+    display: flex;
+    letter-spacing: 1px;
+    padding: 0 52px 0 0;
+    flex-wrap: nowrap;
+    background-color: rgb(13, 23, 33);
+    z-index: 100;
+    overflow-x: auto;
+    text-wrap: nowrap;
+    -ms-overflow-style: none;
+    /* For Internet Explorer and Edge */
+    scrollbar-width: none;
+    /* For Firefox */
+}
+
+/* .sub-head::-webkit-scrollbar {
+    display: none; */
+/* For Chrome, Safari, and Opera */
+/* } */
+
+.sub-head-link {
+    padding: 5px 15px;
+    background-color: rgb(13, 23, 33);
+    color: rgb(241, 241, 241);
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.sub-head-link:hover {
+    background-color: black;
+}

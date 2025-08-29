@@ -1,0 +1,81 @@
+.exercise-part-container {
+    background-color: rgb(13, 23, 33);
+    color: white;
+    text-align: center;
+    padding: 64px 35px;
+}
+
+.exercise-part {
+    margin: 0;
+    width: min(100%) !important;
+}
+
+.exercise-title {
+    font-size: 65px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.exercise-desc {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.exercise-btn-container {
+    width: min(1352px, 100%);
+    margin: auto;
+}
+
+.exercise-btn-div-1,
+.exercise-btn-div-2 {
+    display: inline-block;
+    width: 45.999%;
+    border-radius: 5px;
+    padding: 0 8px;
+}
+
+.exercise-btn-1,
+.exercise-btn-2 {
+    padding: 70px 50px;
+    font-size: 35px;
+    width: 94%;
+    background-color: rgb(67, 67, 67);
+    text-align: center;
+    font-family: "Source Sans 3", sans-serif;
+    border-radius: 5px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.exercise-btn-1 {
+    float: left;
+    background-color: rgb(4, 170, 109);
+}
+
+.exercise-btn-2 {
+    float: right;
+    background-color: rgb(255, 244, 163);
+    color: black;
+}
+
+.exercise-btn-1:hover {
+    background-color: rgb(5, 152, 98);
+}
+
+.exercise-btn-2:hover {
+    background-color: rgb(255, 240, 128);
+}
+
+@media screen and (max-width:600px) {
+
+    .exercise-btn-div-1,
+    .exercise-btn-div-2 {
+        width: 100%;
+    }
+
+        .exercise-btn-1,
+        .exercise-btn-2 {
+            width: 100%;
+        }
+    }
