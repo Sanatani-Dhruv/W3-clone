@@ -62,20 +62,8 @@
     position: absolute;
     right: 200px;
     bottom: -50px;
-    z-index: 100;
+    z-index: 1;
     transform: rotate(10deg);
-}
-
-@media (max-width:992px) {
-    .w3badge-svg {
-        width: 150px;
-        right: 2%;
-        bottom: -110px;
-    }
-
-    .curv-arrow-svg {
-        display: none;
-    }
 }
 
 @media  (max-width:800px) {
@@ -91,8 +79,20 @@
 
     .w3badge-svg {
         bottom: unset;
-        top: -155px;
-        right: 0px;
+        top: -150px;
+        right: 10px;
         width: 100px !important;
+    }
+}
+
+@media (max-width:992px) {
+    .w3badge-svg {
+        width: 150px;
+        right: 2%;
+        bottom: -110px;
+    }
+
+    .curv-arrow-svg {
+        display: none;
     }
 }
